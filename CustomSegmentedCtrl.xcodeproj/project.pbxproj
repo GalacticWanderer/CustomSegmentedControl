@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C505512F2272B5DB00B0E43B /* CustomSegCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505512E2272B5DB00B0E43B /* CustomSegCtrl.swift */; };
 		C51441B4225C077900B8D8BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51441B3225C077900B8D8BC /* AppDelegate.swift */; };
 		C51441B6225C077900B8D8BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51441B5225C077900B8D8BC /* ViewController.swift */; };
 		C51441B9225C077900B8D8BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51441B7225C077900B8D8BC /* Main.storyboard */; };
 		C51441BB225C077A00B8D8BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51441BA225C077A00B8D8BC /* Assets.xcassets */; };
 		C51441BE225C077A00B8D8BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51441BC225C077A00B8D8BC /* LaunchScreen.storyboard */; };
+		C5942AE122737055004F1A43 /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5942ADF22737055004F1A43 /* TagViewController.swift */; };
+		C5942AE222737055004F1A43 /* TagViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5942AE022737055004F1A43 /* TagViewController.xib */; };
+		C5942AE52273708E004F1A43 /* MeetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5942AE32273708E004F1A43 /* MeetViewController.swift */; };
+		C5942AE62273708E004F1A43 /* MeetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5942AE42273708E004F1A43 /* MeetViewController.xib */; };
+		C5942AE92273709F004F1A43 /* PointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5942AE72273709F004F1A43 /* PointsViewController.swift */; };
+		C5942AEA2273709F004F1A43 /* PointsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5942AE82273709F004F1A43 /* PointsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C505512E2272B5DB00B0E43B /* CustomSegCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegCtrl.swift; sourceTree = "<group>"; };
 		C51441B0225C077900B8D8BC /* CustomSegmentedCtrl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSegmentedCtrl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51441B3225C077900B8D8BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C51441B5225C077900B8D8BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,12 @@
 		C51441BA225C077A00B8D8BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C51441BD225C077A00B8D8BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C51441BF225C077A00B8D8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5942ADF22737055004F1A43 /* TagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
+		C5942AE022737055004F1A43 /* TagViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagViewController.xib; sourceTree = "<group>"; };
+		C5942AE32273708E004F1A43 /* MeetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetViewController.swift; sourceTree = "<group>"; };
+		C5942AE42273708E004F1A43 /* MeetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeetViewController.xib; sourceTree = "<group>"; };
+		C5942AE72273709F004F1A43 /* PointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewController.swift; sourceTree = "<group>"; };
+		C5942AE82273709F004F1A43 /* PointsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PointsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,13 @@
 				C51441BA225C077A00B8D8BC /* Assets.xcassets */,
 				C51441BC225C077A00B8D8BC /* LaunchScreen.storyboard */,
 				C51441BF225C077A00B8D8BC /* Info.plist */,
+				C505512E2272B5DB00B0E43B /* CustomSegCtrl.swift */,
+				C5942ADF22737055004F1A43 /* TagViewController.swift */,
+				C5942AE022737055004F1A43 /* TagViewController.xib */,
+				C5942AE32273708E004F1A43 /* MeetViewController.swift */,
+				C5942AE42273708E004F1A43 /* MeetViewController.xib */,
+				C5942AE72273709F004F1A43 /* PointsViewController.swift */,
+				C5942AE82273709F004F1A43 /* PointsViewController.xib */,
 			);
 			path = CustomSegmentedCtrl;
 			sourceTree = "<group>";
@@ -123,8 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C51441BE225C077A00B8D8BC /* LaunchScreen.storyboard in Resources */,
+				C5942AE222737055004F1A43 /* TagViewController.xib in Resources */,
+				C5942AE62273708E004F1A43 /* MeetViewController.xib in Resources */,
 				C51441BB225C077A00B8D8BC /* Assets.xcassets in Resources */,
 				C51441B9225C077900B8D8BC /* Main.storyboard in Resources */,
+				C5942AEA2273709F004F1A43 /* PointsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5942AE52273708E004F1A43 /* MeetViewController.swift in Sources */,
+				C5942AE92273709F004F1A43 /* PointsViewController.swift in Sources */,
 				C51441B6225C077900B8D8BC /* ViewController.swift in Sources */,
+				C5942AE122737055004F1A43 /* TagViewController.swift in Sources */,
+				C505512F2272B5DB00B0E43B /* CustomSegCtrl.swift in Sources */,
 				C51441B4225C077900B8D8BC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
